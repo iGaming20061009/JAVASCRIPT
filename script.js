@@ -7,8 +7,8 @@ if (x < 50){
     console.log("error");
 }
 
-let name = "mariam"
-if (name === "mariam"){
+let name2 = "mariam"
+if (name2 === "mariam"){
     console.log(true);
 } else{
     console.log(false);
