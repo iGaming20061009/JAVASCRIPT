@@ -31,7 +31,7 @@ console.log(checkUser(user));
 function maximum(list) {
     let maximum = 0;
     for (let i of list) {
-        if (maximum < i) maximum = i;
+        if (maximum < i) { maximum = i};
     }
     return maximum;
 }

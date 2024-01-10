@@ -77,7 +77,7 @@ if (user2.studentstatus === "active" && user2.age === 20) {
 //or
 
 console.log(
-    user2.studentstatus === "active" && user2.age === 20
+    user2.studentstatus === "active" && user2.age < 18
         ? "hello user"
         : user2.name === "levani"
         ? "hello levani"
