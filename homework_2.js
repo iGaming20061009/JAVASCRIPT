@@ -64,7 +64,7 @@ let user2 = {
     age: 20,
     studentstatus: "active",
 };
-if (user2.studentstatus === "active" && user2.age === 20) {
+if (user2.studentstatus === "active" && user2.age < 18) {
     console.log("hello user");
 } else if (user2.name === "levani") {
     console.log("hello levani");
