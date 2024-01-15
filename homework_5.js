@@ -41,7 +41,8 @@ console.log(languages.filter((l) => l.length > 3));
 /*
 მოცემულია მასივი:
 let words = ['madrid', 'rome', 'milan', 'berlin'];
-filter მეთოდის საშუალებით დააბრუნეთ მასივი, რომელიც შედგება ისეთი სიტყვებისგან რომელიც შეიცავს ასო m-ს ან m-ს;
+filter მეთოდის საშუალებით დააბრუნეთ მასივი, რომელიც შედგება ისეთი სიტყვებისგან რომელიც შეიცავს ასო m-ს ან n-ს; 
+(m an m ewera, me m da n shevcvale rom saintereso iyos)
 */
 let words = ["madrid", "rome", "milan", "berlin"];
 console.log(words.filter((l) => l.includes("m") && l.includes("n")));
